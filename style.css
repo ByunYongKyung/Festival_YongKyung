@@ -1,0 +1,308 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font: 'arial';
+    
+}
+
+.header {
+    height: 200px;
+    text-align: center;
+    border-bottom: 1px solid #999;
+    box-sizing: border-box;
+    background-color: rgb(5, 39, 67);
+}
+
+.header .logo1 {
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    height: 186px;
+    width: 194px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-left: 40px;
+}
+
+.header .logo2 {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    height: 186px;
+    width: 194px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-right: 40px;
+
+}
+
+.header .header_logo h1 {
+    font: bold 60px 'arial';
+    padding-top: 14px;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 4px 2px 2px #f197b2;
+}
+
+.header .header_logo p {
+    font: bold 20px 'arial';
+    letter-spacing: 2px;
+    margin-top: -1px;
+    color: white;
+    text-shadow: 4px 2px 2px #f197b2;
+}
+
+.header .header_gnb ul {
+    margin-top: 39px;
+}
+
+.header .header_gnb ul li {
+    display: inline-block;
+}
+
+.header .header_gnb ul li a {
+    display: block;
+    font: bold 14px 'arial';
+    color: rgb(255, 255, 255);
+    margin: 0px 16px; 
+    letter-spacing: 1px;
+}
+
+.main .title {
+    font: bold 35px 'arial';
+    text-align: center;
+    color: orange;
+}
+
+.main .subtitle {
+    font: 25px 'arial';
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    color: rgb(5, 39, 67);
+}
+
+.main {
+    padding-top: 40px;
+    margin-top: 60px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.main .booth {
+    font: bold 18px 'arial';
+    border: 3px solid #f1c5a0;
+    width: 133px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.main .booth_logo {
+    font: bold 23px 'arial';
+    height: 39px;
+    width: 178px;
+    line-height: 43px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    border-radius: 14px;
+
+}
+
+.in {
+    text-indent: 30px;
+}
+
+.main .right {
+    float: right;
+}
+
+.main .left {
+    float: left;
+}
+
+
+.main .booth_table caption {
+    text-align: center;
+}
+
+.main .booth_table th{
+    border: 1px solid;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+}
+
+.main .time .time-item-detail .time_table th{
+    border: 0.5px solid;
+    width: 250px;
+    height: 50px;
+}
+
+.main .time .time-item-detail .time_table td{
+    text-align: center;
+    border: 0.5px solid;
+    width: 250px;
+    height: 50px;
+}
+
+.main .time {
+    display: flex;
+}
+
+.main .time .time-item {
+    width: auto;
+    height: auto;
+    margin: 18px;
+    text-align: center;
+}
+
+.main .time .time-item .time-item-title {
+    font-size: 20px;
+    background: rgba(0, 0, 0, .03);
+    height: 53px;
+    line-height: 53px;
+    background-color: rgb(5, 39, 67);
+    color: white;
+    text-shadow: 4px 2px 2px #f197b2;
+    border-radius: 11px;
+}
+
+.main .time .time-item .time-item-detail {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.main .image {
+    text-align: center;
+}
+
+.main .image .fes_photho {
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    border: 3px solid skyblue;
+    border-radius: 50%;
+}
+
+#body-wrapper {
+    min-height: 100%;
+    position: relative;
+}
+#body-content {
+    margin-top: 100px;
+    padding-bottom: 200px;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    
+}
+.footer {
+    background: #177e4a;
+    border-radius: 5px;
+    padding: 30px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.footer p {
+    color: white;
+}
+.footer a {
+    color: white;
+}
+
+.main .search-bar {width: 500px;}
+
+h2 {
+    text-align: center;
+    font-size: 90px;
+    margin-top: 230px;
+}
+
+h2 span:nth-child(1) {
+    color: #4285f4;
+}
+h2 span:nth-child(2) {
+    color: #ea4335;
+}
+h2 span:nth-child(3) {
+    color: #fbbc05;
+}
+h2 span:nth-child(4) {
+    color: #4285f4;
+}
+h2 span:nth-child(5) {
+    color: #34a853;
+}
+h2 span:nth-child(6) {
+    color: #ea4335;
+}
+h2 span:nth-child(7) {
+    color: #070605;
+}
+h2 span:nth-child(8) {
+    color: #fbbc05;
+}
+
+.festival {
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+}
+.festival > .firecracker {
+    font-size: 15px;
+
+    width:1em;
+    height:1em;
+
+    background: rgba(255, 255, 255, 0.5);
+
+    position: absolute;
+    
+    border-radius: 50%;
+
+    /* 8방향 그림자 */
+    box-shadow: 
+        0 0 0 0 #FCFFA6,
+        0 0 0 0 #C1FFD7,
+        0 0 0 0 #B5DEFF,
+        0 0 0 0 #CAB8FF,
+        0 0 0 0 #B5EAEA,
+        0 0 0 0 #EDF6E5,
+        0 0 0 0 #FFBCBC,    
+        0 0 0 0 #F38BA0
+        ;
+
+    transition-property: box-shadow;
+    transition-duration: 2s;
+    transition-timing-function: eaes-out;
+}
+
+.festival > .firecracker.boom {
+    background:rgba(0, 0, 0, 0);
+
+    /* 8방향 그림자 */
+    box-shadow: 
+        5em 0 1em 0 #FCFFA6,
+        -5em 0 1em 0 #B5DEFF,
+        0 5em 1em 0 #CAB8FF,
+        0 -5em 1em 0 #B5EAEA,
+        3.5em 3.5em 1em 0 #C1FFD7,
+        3.5em -3.5em 1em 0 #EDF6E5,
+        -3.5em 3.5em 1em 0 #FFBCBC,    
+        -3.5em -3.5em 1em 0 #F38BA0
+        ;
+}
