@@ -261,6 +261,7 @@ h2 span:nth-child(8) {
     left:0;
     bottom:0;
     right:0;
+    z-index: -1;
 }
 .festival > .firecracker {
     font-size: 15px;
